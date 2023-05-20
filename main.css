@@ -38,7 +38,7 @@ justify-content: space-around;
    justify-content: end;
     width: 100%;
     font-size: 25px;
-    padding: 2px;
+    padding: 6 px;
 
 }
 
@@ -59,25 +59,72 @@ display: flex;
 }
 
 .section-1 .div-section1{
-    border: 2px solid rgb(230, 230, 9);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+
+
 
 }
 
+body  .section-1 .img-section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.section-1 .h1-section1{
+    font-size: 35px;
+    flex-direction: ;
+}
+
+
 .section-2{
-border: 2PX solid salmon;
+
 width: 100%;
-height: 15%;
+height: 15vh;
+display: flex;
+justify-content: center;
+background-color: #8c8477;
+
 
 }
 
 .section-2 .div-section2{
-    border: 2px solid seagreen;
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
 
 }
 
+.section-2 .h1-section2{
+    font-size:40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.section-2 .p-section2{
+    border: solid 6px rgb(6, 167, 216);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: baseline;
+    font-size: 90%;
+}
+
+
 .section-2 .div-img-section2{
 border: solid 2px skyblue;
-width: 100%;
+
 }
 
 .section-3{
