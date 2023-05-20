@@ -23,8 +23,9 @@ display: flex;
 justify-content: start;
 width: 100%;
 height: 7%;
-background-color: #8c8477;
-padding: 2px;
+background-color: #3a3639;
+padding: 10px;
+color: #e0ccc8  ;
 }
 
 .header .div-header{
@@ -39,7 +40,7 @@ justify-content: space-around;
    justify-content: end;
     width: 100%;
     font-size: 25px;
-    padding: 6 px;
+    padding: 10 px;
 
 }
 
@@ -52,11 +53,11 @@ justify-content: space-around;
 }
 
 .section-1{
-border: 2px solid plum;
+
 width: 100%;
 height: 25%;
 display: flex;
-
+padding: 40px;
 }
 
 .section-1 .div-section1{
@@ -71,26 +72,30 @@ display: flex;
 
 }
 
-body  .section-1 .img-section1{
+.section-1 .img-section1{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
+   
 
 }
 
 
 .section-1 .h1-section1{
     font-size: 35px;
-    flex-direction: ;
+    flex-direction:column;
 }
 
 
 .section-2{
+ display: flex;
+padding: px;
+background-color: #534b4f;
 width: 100%;
-
+justify-content: center;
 
 }
 
@@ -98,28 +103,38 @@ width: 100%;
     display: flex;
     flex-direction: column;
     width: 50vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .section-2 .h1-section2{
-    font-size:40px;
+    font-size:px;
     display: flex;
     text-align: center;
     justify-content: center;
+    font-size: 40px;
+    color: white;
+    
 }
 
 .section-2 .p-section2{
-    border: solid 6px rgb(6, 167, 216);
-    display: flex;
+    isplay: flex;
     flex-direction: column;
     text-align: center;
     justify-content: baseline;
-    font-size: 90%;
+    font-size: 100%;
+    padding-bottom: 20px;
+    color: aliceblue;
+    
 }
 
 
 .section-2 .div-img-section2{
-border: solid 2px skyblue;
+padding: 20px;
+padding-left: 20px;
+
 
 }
 
