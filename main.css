@@ -1,26 +1,28 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style-type: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
     border: none;
 }
 
-body{
-        width: 100%;
-        height: 100vh;
-        font-size: 62.5%;   
-        scroll-behavior: smooth;
-        overflow-x: hidden;
-    
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
 }
 
 /* Header */
 
-.container{
-    width: 100% ;
+.container {
+    width: 100%;
     height: 75px;
     display: flex;
     justify-content: space-around;
@@ -29,7 +31,7 @@ body{
 }
 
 
-.div-header-logo{   
+.div-header-logo {
     width: 180px;
     height: 40px;
     background-color: #37371e;
@@ -38,17 +40,18 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    -webkit-box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
 }
 
-.div-header-logo h3{
+.div-header-logo p {
     color: rgb(0, 249, 211);
     font-size: 25px;
+    font-family: 'Righteous', cursive;
 }
 
-.container .ul-header-menu{
+.container .ul-header-menu {
     width: 600px;
     display: flex;
     align-items: center;
@@ -56,7 +59,7 @@ box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
     text-transform: uppercase;
 }
 
-.container .ul-header-menu li a{
+.container .ul-header-menu li a {
     padding-top: 3px;
     padding-bottom: 2px;
     padding-left: 8px;
@@ -69,19 +72,19 @@ box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
 
 }
 
-.container .ul-header-menu li a:hover{
-    
+.container .ul-header-menu li a:hover {
+
     border-bottom: 3px solid aqua;
     color: aqua;
-    -webkit-box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
 }
 
 /* Section-1*/
 
 
-.section-1{
+.section-1 {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -90,48 +93,49 @@ box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
     align-items: center;
     background-image: linear-gradient(rgba(22, 22, 22, 0.671), rgba(29, 29, 29, 0.625)), url(./assets/img/Pizza6.jpg);
     background-size: cover;
-    -webkit-box-shadow: inset 0px 12px 11px 0px rgba(0,0,0,0.75);
--moz-box-shadow: inset 0px 12px 11px 0px rgba(0,0,0,0.75);
-box-shadow: inset 0px 12px 11px 0px rgba(0,0,0,0.75);
-    
-    
-}   
+    -webkit-box-shadow: inset 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
 
-.section-1 .div-section1{
+
+}
+
+.section-1 .div-section1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
+
 }
 
-.section-1 h1{
+.section-1 h1 {
     color: aqua;
     background-color: #1f1f114e;
     padding-left: 12px;
-    padding-right: 12px ;
-    border-radius: 10px ;
+    padding-right: 12px;
+    border-radius: 10px;
     text-transform: uppercase;
     font-size: 40px;
     margin-bottom: 5px;
-    -webkit-box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
+    font-family: 'Righteous', cursive;
 }
 
-.section-1 h2{
+.section-1 h2 {
     color: rgb(236, 236, 236);
     text-transform: uppercase;
     font-size: 18px;
     margin-bottom: 15px;
 }
 
-.section1-reservar-btn{
+.section1-reservar-btn {
     width: 240px;
     height: 60px;
     cursor: pointer;
     text-transform: uppercase;
-    background-color:#1f1f11;
+    background-color: #1f1f11;
     border-radius: 25px;
     color: #ffffff;
     font-weight: 700;
@@ -140,7 +144,7 @@ box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
     transition: all 400ms;
 }
 
-.section1-reservar-btn:hover{
+.section1-reservar-btn:hover {
     border: #1f1f11 2px;
     background-color: #1f1f118c;
     color: #ffffff;
@@ -150,7 +154,7 @@ box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
 /* Section-2 */
 
 
-.section-2{
+.section-2 {
     width: 100vw;
     height: 400px;
     padding-bottom: 15px;
@@ -159,18 +163,18 @@ box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    -webkit-box-shadow: inset 0px 1px 14px 10px rgba(0,0,0,0.75);
--moz-box-shadow: inset 0px 1px 14px 10px rgba(0,0,0,0.75);
-box-shadow: inset 0px 1px 14px 10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: inset 0px 1px 14px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 1px 14px 10px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 1px 14px 10px rgba(0, 0, 0, 0.75);
 
 }
 
-.sobre-section2{
+.sobre-section2 {
     display: flex;
     justify-content: space-around;
 }
 
-.sobre-nós-section2{
+.sobre-nós-section2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,7 +182,7 @@ box-shadow: inset 0px 1px 14px 10px rgba(0,0,0,0.75);
 
 }
 
-.sobre-nós-section2 .A-section2{
+.sobre-nós-section2 .A-section2 {
     font-size: 45px;
     margin-bottom: 2px;
     color: #ffffff;
@@ -186,27 +190,27 @@ box-shadow: inset 0px 1px 14px 10px rgba(0,0,0,0.75);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.sobre-nós-section2 .A-section2:hover{
-    background-color:¨#444;
-border-bottom: 3px solid aqua;
-color: aqua;
+.sobre-nós-section2 .A-section2:hover {
+    background-color: ¨#444;
+    border-bottom: 3px solid aqua;
+    color: aqua;
 }
 
-.sobre-nós-section2 p{
+.sobre-nós-section2 p {
     text-align: center;
     font-size: 18px;
     width: 700px;
 
 }
 
-.section-2 .cozinha-img{
+.section-2 .cozinha-img {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.sobre-nós-section2 img{
+.sobre-nós-section2 img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -214,7 +218,7 @@ color: aqua;
 
 /* section-3 */
 
-.section-3{
+.section-3 {
     width: 100vw;
     height: 1400px;
 
@@ -222,30 +226,30 @@ color: aqua;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    
+
 
     background-image: linear-gradient(rgba(22, 22, 22, 0.466), rgba(29, 29, 29, 0.289)), url(/assets/img/Pizza\ neon.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-}   
+}
 
-.section-3 h2{
+.section-3 h2 {
     color: aqua;
     background-color: #1f1f114e;
     padding-left: 12px;
-    padding-right: 12px ;
-    border-radius: 10px ;
+    padding-right: 12px;
+    border-radius: 10px;
     text-transform: uppercase;
     font-size: 40px;
     margin-bottom: 5px;
-    -webkit-box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
- 
+    -webkit-box-shadow: 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
+
 }
 
-.section-3 .pizzas-1{
+.section-3 .pizzas-1 {
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -255,7 +259,7 @@ box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
 
 }
 
-.section-3 .pizzas-2{
+.section-3 .pizzas-2 {
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -263,12 +267,71 @@ box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
     align-items: center;
 }
 
-.section-3 img{
+.section-3 img {
     height: 200px;
     width: 100%;
 }
 
-.section-3 .info{
+
+.section-3 .card{
+}
+
+.section-3 .card .card-body{
+    background-color: #ffffff;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.section-3 .card .card-title {
+    font-family: 'Righteous', cursive;
+color: #1f1f11;
+font-size: 20px;
+
+}
+
+.section-3 .card .card-text{
+ font-size: 12px;
+ padding-left: 12px;   
+
+}
+
+.section-3 .card .btn-pizzas{
+    font-family: Raleway;
+        font-weight: 100;
+        font-size: 17px;
+        color: #fafafa;
+        background-color: #474726f4;
+        padding: 5px 20px;
+        border: none;
+        box-shadow: rgb(0, 0, 0) 0px 11px 17px 1px;
+        border-radius: 24px;
+        transition: 1000ms;
+        transform: translateY(0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+        text-transform: uppercase;
+}
+
+
+.section-3 .card .btn-pizzas:hover{
+    transition: 1000ms;
+        padding: 8px 25px;
+        transform: translateY(-0px);
+        background-color: #47472600;
+        color: #1e1e1f;
+        border: none;
+}
+
+
+
+.section-3 .info {
     width: 100%;
     height: 200px;
     border: none;
@@ -279,7 +342,7 @@ box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
     padding: 1.5rem;
 }
 
-.section-3 .info h3{
+.section-3 .info h3 {
     height: 40px;
     color: rgb(28, 28, 28);
     font-size: 30px;
@@ -293,7 +356,7 @@ box-shadow: 0px 12px 11px 0px rgba(0,0,0,0.75);
 
 /* Footer */
 
-.desenvolvedores{
+.desenvolvedores {
     background-color: black;
     color: #ffffff;
     font-size: 10px;
