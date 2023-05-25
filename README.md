@@ -6,5 +6,5 @@ Embora o projeto ainda esteja em desenvolvimento, em breve será concluído. Dur
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Link do site
 
-https://emerson444.github.io/pizzaria2/
+https://emerson444.github.io/pizzaria/
 
