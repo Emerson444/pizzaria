@@ -109,7 +109,8 @@ box-shadow: 0px 12px 16px 10px rgba(0,0,0,0.75);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(22, 22, 22, 0.671), rgba(29, 29, 29, 0.625)), url(http://127.0.0.1:5500/img/Pizza6.jpg);
+    background-image: linear-gradient(rgba(22, 22, 22, 0.671), rgba(29, 29, 29, 0.625)), 
+    url(https://i.pinimg.com/750x/df/e5/c4/dfe5c428dc3c9deed7228d2a2ddda16c.jpg);
     background-size: cover;
     -webkit-box-shadow: inset 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: inset 0px 12px 11px 0px rgba(0, 0, 0, 0.75);
@@ -222,7 +223,7 @@ box-shadow: inset 0px 0px 22px 8px rgba(0,0,0,1);
 
 .section-2 .sobre-nós-section2 p{
     font-size: 25px;
-    text
+
 }
 
 .sobre-nós-section2 .A-section2 {
@@ -267,7 +268,8 @@ box-shadow: inset 0px 0px 22px 8px rgba(0,0,0,1);
     align-items: center;
 
 
-    background-image: linear-gradient(rgba(22, 22, 22, 0.466), rgba(29, 29, 29, 0.289)), url(http://127.0.0.1:5500/img/Pizza%20neon.jpg);
+    background-image: linear-gradient(rgba(22, 22, 22, 0.466), rgba(29, 29, 29, 0.289)), 
+    url(http://127.0.0.1:5500/img/Pizza%20neon.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
